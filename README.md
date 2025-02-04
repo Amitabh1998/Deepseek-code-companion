@@ -1,37 +1,37 @@
 # Deepseek-code-companion
 
-#### 🚀 Your AI Pair Programmer with Debugging Superpowers
+ 🚀 Your AI Pair Programmer with Debugging Superpowers
 
-### DeepSeek Code Companion is an AI-powered coding assistant built with Ollama and LangChain. It provides expert assistance in Python programming, debugging, code documentation, and solution design. Whether you're a beginner or an experienced developer, DeepSeek is here to help you write better code faster.
+ DeepSeek Code Companion is an AI-powered coding assistant built with Ollama and LangChain. It provides expert assistance in Python programming, debugging, code documentation, and solution design. Whether you're a beginner or an experienced developer, DeepSeek is here to help you write better code faster.
 
 ### 🌟 Features
-#### 🐍 Python Expert: Get expert guidance on Python programming.
+ 🐍 Python Expert: Get expert guidance on Python programming.
 
-#### 🐞 Debugging Assistant: Identify and fix bugs in your code with strategic print statements.
+ 🐞 Debugging Assistant: Identify and fix bugs in your code with strategic print statements.
 
-#### 📝 Code Documentation: Automatically generate clear and concise documentation for your code.
+ 📝 Code Documentation: Automatically generate clear and concise documentation for your code.
 
-#### 💡 Solution Design: Receive well-structured solutions for your coding problems.
+ 💡 Solution Design: Receive well-structured solutions for your coding problems.
 
 ### 🛠️ Technologies Used
-#### Ollama: A lightweight framework for running large language models locally.
+ Ollama: A lightweight framework for running large language models locally.
 
-#### LangChain: A framework for building applications powered by language models.
+ LangChain: A framework for building applications powered by language models.
 
-#### Streamlit: A powerful tool for building interactive web applications with Python.
+ Streamlit: A powerful tool for building interactive web applications with Python.
 
 ## 🚀 Getting Started
-#### Follow these steps to set up and run the DeepSeek Code Companion on your local machine.
+ Follow these steps to set up and run the DeepSeek Code Companion on your local machine.
 
 ### Prerequisites
-#### Python 3.9 or higher
+ Python 3.9 or higher
 
-#### Ollama installed and running locally
+ Ollama installed and running locally
 
-#### Streamlit installed
+ Streamlit installed
 
 ### Installation
-#### Clone the Repository:
+Clone the Repository:
 
 git clone https://github.com/your-username/deepseek-code-companion.git
 cd deepseek-code-companion
@@ -56,7 +56,7 @@ streamlit run app.py
 #### Access the App:
 Open your browser and navigate to the URL provided in the terminal (usually http://localhost:8501).
 
-🖥️ Usage
+### 🖥️ Usage
 Choose a Model:
 
 In the sidebar, select a model from the dropdown (e.g., deepseek-r1:1.5b or deepseek-r1:3b).
@@ -71,7 +71,7 @@ Explore Model Capabilities:
 
 Use DeepSeek for debugging, code documentation, or solution design.
 
-🎨 Customization
+### 🎨 Customization
 Styling
 The app uses custom CSS for a dark theme. You can modify the styles in the st.markdown section of the code.
 
