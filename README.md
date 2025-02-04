@@ -37,9 +37,9 @@ git clone https://github.com/your-username/deepseek-code-companion.git
 cd deepseek-code-companion
 
 #### Set Up a Virtual Environment:
-
+```bash
 python -m venv .venv
-source .venv/bin/activate  # On Windows, use `.venv\Scripts\activate`
+source .venv/bin/activate  # On Windows, use `.venv\Scripts\activate```
 
 #### Install Dependencies:
 
