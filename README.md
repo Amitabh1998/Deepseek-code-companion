@@ -33,17 +33,20 @@
 ### Installation
 Clone the Repository:
 
+```bash
 git clone https://github.com/your-username/deepseek-code-companion.git
 cd deepseek-code-companion
+```
 
 #### Set Up a Virtual Environment:
 ```bash
 python -m venv .venv
-source .venv/bin/activate  # On Windows, use `.venv\Scripts\activate```
+source .venv/bin/activate  # On Windows, use `.venv\Scripts\activate
+```
 
 #### Install Dependencies:
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 #### Run Ollama Locally:
 
@@ -51,7 +54,7 @@ Ensure Ollama is running on your machine. By default, the application connects t
 
 #### Run the Streamlit App:
 
-streamlit run app.py
+`streamlit run app.py`
 
 #### Access the App:
 Open your browser and navigate to the URL provided in the terminal (usually http://localhost:8501).
@@ -77,23 +80,26 @@ The app uses custom CSS for a dark theme. You can modify the styles in the st.ma
 
 Models
 You can add or remove models in the selected_model dropdown by editing the app.py file:
-
+```
 python
-Copy
 selected_model = st.selectbox(
     "Choose Model",
     ["deepseek-r1:1.5b", "deepseek-r1:3b"],  # Add or remove models here
     index=0
 )
+```
+
 System Prompt
 Modify the system prompt in the system_prompt variable to customize the AI's behavior:
 
+```
 python
-Copy
 system_prompt = SystemMessagePromptTemplate.from_template(
     "You are an expert AI coding assistant. Provide concise, correct solutions "
     "with strategic print statements for debugging. Always respond in English."
 )
+```
+
 #### 🐛 Troubleshooting
 Common Issues
 Ollama Not Running:
